@@ -1,0 +1,40 @@
+[
+    {
+        "George W. Bush won a presidential election": {
+            "label": true,
+            "facts": [
+                "isPolitician(George W. Bush) ∧ isFormerUSPresident(George W. Bush)",
+                "ParticipatedIn(2000 United States presidential election, George W. Bush)",
+                "BecamePresidentOf(United States of America, George W. Bush)"
+            ]
+        }
+    },
+    {
+        "Berlin is the capital of Germany": {
+            "label": true,
+            "facts": [
+                "IsCity(Berlin) ∧ CountryOf(Berlin, Germany)",
+                "IsCountry(Germany) ∧ CapitalOf(Germany, Berlin)"
+            ]
+        }
+    },
+    {
+        "Edgar Allan Poe wrote Hamlet": {
+            "label": false,
+            "facts": [
+                "isWriter(Edgar Allan Poe)",
+                "IsPlay(Hamlet)",
+                "AuthorOf(Hamlet, William Shakespeare) ∧ ¬AuthorOf(Hamlet, Edgar Allan Poe)"
+            ]
+        }
+    },
+    {
+        "The Beatles were a rock band from England": {
+            "label": true,
+            "facts": [
+                "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+            ]
+        }
+    }
+]

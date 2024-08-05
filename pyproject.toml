@@ -1,0 +1,39 @@
+[project]
+name = "latent-explorer"
+version = "0.2"
+dependencies = [
+  "litgpt", 
+  "huggingface-hub", 
+  "tokenizers", 
+  "spacy", 
+  "spacy-curated-transformers",
+  "pandas", 
+  "safetensors",
+  "dirtyjson",
+  "matplotlib", 
+  "networkx-temporal"
+]
+authors = [
+  { name="Marco Bronzini", email="m.bronzini@ipazia.com" },
+]
+description = "A Python library based on the technique of activation patching to represent the factual knowledge encoded in the latent space of large language models as dynamic knowledge graphs."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: Free for non-commercial use",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["Large Language Models", "Latent Representations", "Propositional Probes", "Residual Stream", "Factual Knowledge", "Activation Patching", "Graphs", "Dynamic Graphs", "Knowledge Graphs", "LLMs"]
+
+[project.urls]
+Homepage = "https://github.com/saturnMars/latent-explorer/tree/main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,924 @@
+[
+    {
+        "STATS": {
+            "INPUT": "Empress Matilda moved to Germany as a child",
+            "CONSIDERED_TOKENS": {
+                "▁Em": 0.0,
+                "press": 1.0,
+                "▁Mat": 0.0,
+                "ilda": 1.0,
+                "▁moved": 1.0,
+                "▁to": 0.0,
+                "▁Germany": 1.0,
+                "▁as": 0.0,
+                "▁a": 0.0,
+                "▁child": 1.0
+            }
+        },
+        "_INFERENCE": [
+            "Empress Matilda, also known as Matilda of England or Maude, was born in 1102 in London, England. She was the daughter of King Henry I of England and Matilda of Scotland. She did not move to Germany as a child."
+        ],
+        "HS": {
+            "L0": [
+                "I apologize, but I'm not sure what you're trying to say with \"mexico mexican\". Could you please provide more context or clarify your statement?"
+            ],
+            "L1": [
+                "Mildeged was a rock band from England."
+            ],
+            "L2": [
+                "* Matilda is a novel by Roald Dahl, published in 1988.\n* The story follows the life of a young girl named Matilda Wormwood, who is born into a family of uncaring and neglectful parents.\n* Matilda is a brilliant and kind-hearted child, but her parents, Mr. and Mrs. Wormwood, are"
+            ],
+            "L3": [
+                "]}"
+            ],
+            "L4": {
+                "label": true,
+                "facts": [
+                    "IsMonarch(Empress) ∧ GenderOf(Empress, Female)"
+                ]
+            },
+            "L5": {
+                "label": false,
+                "facts": [
+                    "IsName(Empress) ∧ ¬IsName(Empress, Empress Matilda)"
+                ]
+            },
+            "L6": {
+                "label": false,
+                "facts": [
+                    "IsName(Empress) ∧ ¬IsName(Empress, Empress)"
+                ]
+            },
+            "L7": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L8": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsEmpress(Empress Matilda, Germany)"
+                ]
+            },
+            "L9": 1,
+            "L10": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsEmpress(Empress Matilda, Germany)"
+                ]
+            },
+            "L11": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L12": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L13": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L14": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L15": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsEmpress(Empress Matilda)",
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsOf(Empress Matilda, England)"
+                ]
+            },
+            "L16": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L17": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L18": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L19": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L20": [
+                "Sorry, I don't understand what you mean by \"[Empress]\". Could you explain?"
+            ],
+            "L21": {
+                "label": false,
+                "facts": [
+                    "IsHistoricalFigure(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L22": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L23": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L24": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L25": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L26": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L27": [
+                "Sorry, I don't understand what you mean by \"[INST: The Beatles were a rock band from England]\". Could you explain?"
+            ],
+            "L28": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L29": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L30": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L31": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(The Beatles)"
+                ]
+            },
+            "L32": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ¬IsBand(Empress Matilda)"
+                ]
+            },
+            "L33": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ChildOf(Empress Matilda, King Henry I) ∧ GrandchildOf(Empress Matilda, William the Conqueror)",
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L34": {
+                "label": true,
+                "facts": [
+                    "IsNoble(Empress Matilda) ∧ BornIn(Empress Matilda, Germany)",
+                    "IsNoble(King Henry I) ∧ FatherOf(King Henry I, William Adelin) ∧ DiedIn(William Adelin, The White Ship disaster)"
+                ]
+            },
+            "L35": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ChildOf(Empress Matilda, King Henry I) ∧ GrandchildOf(Empress Matilda, William the Conqueror)",
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L36": {
+                "label": true,
+                "facts": [
+                    "IsNoble(Empress Matilda) ∧ BornIn(Empress Matilda, Germany)",
+                    "IsNoble(King Henry I) ∧ FatherOf(King Henry I, William Adelin) ∧ DiedIn(William Adelin, The White Ship disaster)"
+                ]
+            },
+            "L37": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ ChildOf(Empress Matilda, King Henry I) ∧ GrandchildOf(Empress Matilda, William the Conqueror)"
+                ]
+            },
+            "L38": 1,
+            "L39": 1,
+            "L40": 1,
+            "L41": 1,
+            "L42": 1,
+            "L43": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ BornIn(Empress Matilda, England) ∧ TitleOf(Empress Matilda, Holy Roman Empress)"
+                ]
+            },
+            "L44": 1,
+            "L45": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ BornIn(Empress Matilda, England) ∧ TitleOf(Empress Matilda, Empress)"
+                ]
+            },
+            "L46": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ IsEmpress(Empress Matilda) ∧ CountryOf(Empress Matilda, England)"
+                ]
+            },
+            "L47": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L48": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Empress Matilda) ∧ IsEmpress(Empress Matilda) ∧ CountryOf(Empress Matilda, England)"
+                ]
+            },
+            "L49": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(King Stephen)"
+                ]
+            },
+            "L50": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L51": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L52": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L53": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda) ∧ ¬IsKing(Empress Matilda)"
+                ]
+            },
+            "L54": [
+                "* IsBand(The Beatles) - This fact states that The Beatles were a band.\n* MusicGenreOf(The Beatles, Rock) - This fact states that the genre of music played by The Beatles was rock.\n* OriginOf(The Beatles, Liverpool) - This fact states that The Beatles originated from"
+            ],
+            "L55": [
+                "* IsBand(The Beatles) - This fact states that The Beatles were a band.\n* MusicGenreOf(The Beatles, Rock) - This fact states that the genre of music played by The Beatles was rock.\n* OriginOf(The Beatles, Liverpool) - This fact states that The Beatles originated from"
+            ],
+            "L56": [
+                "* IsBand(The Beatles) - This fact states that The Beatles were a band.\n* MusicGenreOf(The Beatles, Rock) - This fact states that the genre of music played by The Beatles was rock.\n* OriginOf(The Beatles, Liverpool) - This fact states that The Beatles originated from"
+            ],
+            "L57": [
+                "* IsBand(The Beatles) - This fact states that The Beatles were a band.\n* MusicGenreOf(The Beatles, Rock) - This fact states that the genre of music played by The Beatles was rock.\n* OriginOf(The Beatles, Liverpool) - This fact states that The Beatles originated from"
+            ],
+            "L58": [
+                "]}"
+            ],
+            "L59": 1,
+            "L60": 1,
+            "L61": 1,
+            "L62": 1,
+            "L63": 1,
+            "L64": 1,
+            "L65": 1,
+            "L66": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L67": 1,
+            "L68": 1,
+            "L69": 1,
+            "L70": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L71": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L72": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L73": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L74": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L75": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L76": [
+                "* IsBand(The Beatles) - This states that The Beatles were, in fact, a band.\n* MusicGenreOf(The Beatles, Rock) - This states that the genre of music that The Beatles played was rock.\n* OriginOf(The Beatles, Liverpool) - This states that The Beatles originated"
+            ],
+            "L77": "{\"label\": true, \"facts\": [\"IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)\", \"OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)\"], \"supporting_details\": [{\"text\": ]}",
+            "L78": [
+                "]}"
+            ],
+            "L79": [
+                "* Label: True\n* Facts:\n\t+ IsBand(The Beatles)\n\t+ MusicGenreOf(The Beatles, Rock)\n\t+ OriginOf(The Beatles, Liverpool)\n\t+ CountryOf(Liverpool, England)"
+            ],
+            "L80": 1
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Robin was murdered by the Joker in a 1989 book",
+            "CONSIDERED_TOKENS": {
+                "▁Robin": 1.0,
+                "▁was": 0.0,
+                "▁murder": 0.0,
+                "ed": 1.0,
+                "▁by": 0.0,
+                "▁the": 0.0,
+                "▁J": 0.0,
+                "oker": 1.0,
+                "▁in": 1.0,
+                "▁a": 0.0,
+                "▁": 0.0,
+                "1": 0.0,
+                "9": 0.0,
+                "8": 0.0,
+                "▁book": 1.0
+            }
+        },
+        "_INFERENCE": [
+            "The character of Robin, also known as Jason Todd, was killed off in the comic book series \"Batman\" #428, which was published in 1989. However, he was not murdered by the Joker, but rather by the villainous duo of the Joker and Harley Quinn."
+        ],
+        "HS": {
+            "L0": {
+                "label": true,
+                "facts": [
+                    "IsBook()"
+                ]
+            },
+            "L1": {
+                "label": true,
+                "facts": [
+                    "IsBook(Robin) ∧ AuthorOf(Robin, J.D. Salinger)"
+                ]
+            },
+            "L2": {
+                "label": false,
+                "facts": [
+                    "IsName(Robin) ∧ ¬IsName(Robin, The Beatles)"
+                ]
+            },
+            "L3": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L4": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Joker) ∧ ¬IsFictionalCharacter(Robin)"
+                ]
+            },
+            "L5": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin) ∧ HeroIn(Robin, Batman)"
+                ]
+            },
+            "L6": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin) ∧ HeroIn(Robin, Batman)"
+                ]
+            },
+            "L7": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin) ∧ IsSuperhero(Robin) ∧ SidekickOf(Robin, Batman)"
+                ]
+            },
+            "L8": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin) ∧ IsSuperhero(Robin) ∧ SidekickOf(Robin, Batman)"
+                ]
+            },
+            "L9": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin) ∧ IsVillain(The Joker) ∧ IsBatmanAlly(Robin) ∧ ¬IsBatmanVillain(The Joker)"
+                ]
+            },
+            "L10": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L11": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L12": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L13": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin) ∧ IsVillain(The Joker) ∧ IsBatmanAlly(Robin) ∧ ¬IsBatmanVillain(The Joker)"
+                ]
+            },
+            "L14": [
+                "The Beatles were a rock band from Liverpool, England. The band consisted of John Lennon, Paul McCartney, George Harrison, and Ringo Starr. They are widely regarded as one of the most influential and successful bands in the history of popular music."
+            ],
+            "L15": [
+                "Here's a revised version of the previous response, using actual information about the Beatles:"
+            ],
+            "L16": [
+                "]}"
+            ],
+            "L17": [
+                "Here are some facts to support this assessment:"
+            ],
+            "L18": [
+                "Here's a corrected statement:"
+            ],
+            "L19": [
+                "Here are some facts to support this assessment:"
+            ],
+            "L20": [
+                "Here's a corrected statement:"
+            ],
+            "L21": [
+                "The Beatles were a rock band from Liverpool, England."
+            ],
+            "L22": [
+                "Here's a corrected statement:"
+            ],
+            "L23": [
+                "The Beatles were a rock band from Liverpool, England."
+            ],
+            "L24": [
+                "Here's a corrected statement:"
+            ],
+            "L25": [
+                "The Beatles were a rock band from Liverpool, England."
+            ],
+            "L26": [
+                "Here are some corrected claims:"
+            ],
+            "L27": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L28": [
+                "]}"
+            ],
+            "L29": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L30": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L31": [
+                "Here's another statement for you to fact-check:"
+            ],
+            "L32": [
+                "Here's another statement for you to fact-check:"
+            ],
+            "L33": [
+                "Sorry, it looks like you're trying to use a different language model than the one I'm trained on. I'm not able to understand the format of your input. Can you please rephrase your question or statement in a more standard way? I'll do my best to help you with your inquiry."
+            ],
+            "L34": [
+                "Here's a corrected version of the argument:"
+            ],
+            "L35": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L36": [
+                "If you have a specific question or claim that you would like to fact-check, I'll do my best to help you. Please keep in mind that I can only fact"
+            ],
+            "L37": [
+                "If you have a specific question or claim that you would like to fact-check, I'll do my best to help you. Please keep in mind that I can only fact"
+            ],
+            "L38": [
+                "The Beatles were indeed a rock band, and they were from Liverpool, England. However, whether or not they are considered one of the greatest rock bands of all time"
+            ],
+            "L39": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L40": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objectively"
+            ],
+            "L41": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L42": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L43": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L44": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L45": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L46": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L47": [
+                "The statement \"The Beatles were a rock band from England\" is a matter of opinion and cannot be fact-checked. The Beatles were indeed a rock band, and they were from Liverpool, England. However, this statement doesn't contain any objective facts"
+            ],
+            "L48": [
+                "Here's a corrected statement:"
+            ],
+            "L49": [
+                "Here are some facts to clarify:"
+            ],
+            "L50": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L51": [
+                "* The Beatles were indeed a rock band, known for their influential music and cultural impact in the 1960s.\n* The band members, John Lennon, Paul McCartney, George Harrison, and Ringo Starr, were all from Liverpool, England."
+            ],
+            "L52": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L53": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L54": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L55": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L56": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L57": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)"
+                ]
+            },
+            "L58": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L59": [
+                "Here's a corrected version of the statement:"
+            ],
+            "L60": [
+                "Here are some facts that support this statement:"
+            ],
+            "L61": [
+                "Here are some facts that support this statement:"
+            ],
+            "L62": [
+                "Here are some facts that support this statement:"
+            ],
+            "L63": [
+                "Here are some facts that support this statement:"
+            ],
+            "L64": [
+                "* The Beatles were indeed a rock band, known for their influential music and cultural impact in the 1960s.\n* The band members, John Lennon, Paul McCartney, George Harrison, and Ringo Starr, were all from Liverpool, England."
+            ],
+            "L65": [
+                "Here are some facts that support this statement:"
+            ],
+            "L66": [
+                "Here are some facts that support this statement:"
+            ],
+            "L67": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L68": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Batman) ∧ IsFictionalCharacter(Batman)",
+                    "HasCreator(Batman, Bob Kane) ∧ HasCreator(Batman, Bill Finger)"
+                ]
+            },
+            "L69": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Batman) ∧ IsFictionalCharacter(Batman)",
+                    "HasCreator(Batman, Bob Kane) ∧ HasCreator(Batman, Bill Finger)"
+                ]
+            },
+            "L70": [
+                "Here are some facts that support this statement:"
+            ],
+            "L71": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Batman) ∧ IsFictionalCharacter(Batman)",
+                    "HasCreator(Batman, Bob Kane) ∧ HasCreator(Batman, Bill Finger)"
+                ]
+            },
+            "L72": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Batman) ∧ IsFictionalCharacter(Batman)",
+                    "HasCreator(Batman, Bob Kane) ∧ HasCreator(Batman, Bill Finger)"
+                ]
+            },
+            "L73": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Batman) ∧ IsFictionalCharacter(Batman)",
+                    "HasCreator(Batman, Bob Kane) ∧ HasCreator(Batman, Bill Finger)"
+                ]
+            },
+            "L74": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Batman) ∧ IsFictionalCharacter(Batman)",
+                    "HasCreator(Batman, Bob Kane) ∧ HasCreator(Batman, Bill Finger)"
+                ]
+            },
+            "L75": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L76": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L77": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L78": 1,
+            "L79": [
+                "* Label: True\n* Facts:\n\t+ IsBand(The Beatles)\n\t+ MusicGenreOf(The Beatles, Rock)\n\t+ OriginOf(The Beatles, Liverpool)\n\t+ CountryOf(Liverpool, England)"
+            ],
+            "L80": 1
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Bojack Horseman's creator is also American",
+            "CONSIDERED_TOKENS": {
+                "▁Bo": 0.0,
+                "jack": 1.0,
+                "▁H": 0.0,
+                "ors": 0.0,
+                "eman": 1.0,
+                "'": 0.0,
+                "s": 0.0,
+                "▁cre": 0.0,
+                "ator": 1.0,
+                "▁is": 0.0,
+                "▁also": 0.0,
+                "▁American": 0.0
+            }
+        },
+        "_INFERENCE": [
+            "Raphael Bob-Waksberg, the creator of BoJack Horseman, is an American animator, writer, and producer. He was born in New York City and grew up in Los Angeles. Bob-Waksberg has been open about his own struggles with depression and anxiety, which have influenced the themes and tone of BoJack Horseman."
+        ],
+        "HS": {
+            "L0": [
+                "I apologize, but I'm not sure I understand what you are saying with \"eman\". Could you explain?"
+            ],
+            "L1": [
+                "I apologize, but I'm not able to understand the word \"eman\" as it seems to be a typo or a word that doesn't exist. Could you please provide more context or clarify the word you meant to type?"
+            ],
+            "L2": [
+                "I apologize, but I'm not able to understand the meaning of \"jacker\" as a standalone term. Could you please provide more context or clarify what you mean by \"jacker\"?"
+            ],
+            "L3": [
+                "The creator of the popular animated TV series \"The Simpsons\" is Matt Groening. He is an American cartoonist, writer, and producer who is best known for creating the longest-running primetime animated television series in the United States. The Simpsons premiered on December 17, 1989, and has been on the air for"
+            ],
+            "L4": [
+                "BoJack Horseman is a Netflix original animated series that premiered in 2014. It was created by Raphael Bob-Waksberg and follows the story of BoJack, a washed-up actor who starred in a popular sitcom in the 90s called \"Horsin' Around.\" The show takes place in a world where humans and anthropomorphic animals coexist, and it explores themes of mental health,"
+            ],
+            "L5": [
+                "BoJack Horseman is a popular animated television series that premiered on Netflix in 2014. It was created by Raphael Bob-Waksberg and follows the story of BoJack, a washed-up actor who starred in a hit sitcom in the 90s called \"Horsin' Around.\" The show explores themes of depression, addiction, trauma, and existentialism, and features a cast"
+            ],
+            "L6": [
+                "BoJack Horseman is a popular animated television series that premiered on Netflix in 2014. It was created by Raphael Bob-Waksberg and follows the story of BoJack, a washed-up actor who starred in a hit sitcom in the 90s called \"Horsin' Around.\" The show takes place in a world where humans and anthropomorphic animals coexist, and it explores themes of mental"
+            ],
+            "L7": [
+                "BoJack Horseman is a Netflix original animated series that premiered in 2014. It was created by Raphael Bob-Waksberg and follows the story of BoJack, a washed-up actor who starred in a popular sitcom in the 90s called \"Horsin' Around.\" The show takes place in a world where humans and anthropomorphic animals coexist, and it explores themes of mental health,"
+            ],
+            "L8": [
+                "BoJack Horseman is a Netflix original animated series that premiered in 2014. It was created by Raphael Bob-Waksberg and follows the story of BoJack, a washed-up actor who starred in a popular sitcom in the 90s called \"Horsin' Around.\" The show takes place in a world where humans and anthropomorphic animals coexist, and it explores themes of mental health,"
+            ],
+            "L9": [
+                "BoJack Horseman is a animated television series created by Raphael Bob-Waksberg. It premiered on Netflix in 2014 and ran for six seasons until its conclusion in 2020. The show follows the life of BoJack Horseman, a washed-up actor who starred in a popular sitcom in the 90s called \"Horsin' Around.\" BoJack is a anthropomorphic horse who"
+            ],
+            "L10": [
+                "BoJack Horseman is a Netflix original animated series created by Raphael Bob-Waksberg. It premiered in 2014 and ran for six seasons until its conclusion in 2020. The show follows the life of BoJack Horseman, a washed-up actor who starred in a popular sitcom in the 90s called \"Horsin' Around.\" BoJack is a self-centered, de"
+            ],
+            "L11": [
+                "BoJack Horseman is a Netflix original animated series created by Raphael Bob-Waksberg. It premiered in 2014 and ran for six seasons until its conclusion in 2020. The show follows the life of BoJack Horseman, a washed-up actor who starred in a popular sitcom in the 90s called \"Horsin' Around.\" BoJack is a self-centered, de"
+            ],
+            "L12": {
+                "label": false,
+                "facts": [
+                    "IsTVShow(BoJack Horseman)",
+                    "IsTVShow(The Sopranos)",
+                    "GenreOf(BoJack Horseman, Animated Comedy-Drama)",
+                    "GenreOf(The Sopranos, Crime Drama)"
+                ]
+            },
+            "L13": {
+                "label": false,
+                "facts": [
+                    "IsTVShow(BoJack Horseman)",
+                    "IsTVShow(The Sopranos)",
+                    "GenreOf(BoJack Horseman, Animated Comedy-Drama)",
+                    "GenreOf(The Sopranos, Crime Drama)"
+                ]
+            },
+            "L14": {
+                "label": false,
+                "facts": [
+                    "IsTVShow(BoJack Horseman)",
+                    "IsTVShow(The Sopranos)",
+                    "GenreOf(BoJack Horseman, Animated Comedy-Drama)",
+                    "GenreOf(The Sopranos, Crime Drama)"
+                ]
+            },
+            "L15": [
+                "]}"
+            ],
+            "L16": {
+                "label": false,
+                "facts": [
+                    "IsTVShow(BoJack Horseman)",
+                    "IsTVShow(The Sopranos)",
+                    "GenreOf(BoJack Horseman, Animated Comedy-Drama)",
+                    "GenreOf(The Sopranos, Crime Drama)"
+                ]
+            },
+            "L17": {
+                "label": false,
+                "facts": [
+                    "IsTVShow(BoJack Horseman)",
+                    "IsTVShow(The Sopranos)",
+                    "GenreOf(BoJack Horseman, Animated Comedy-Drama)",
+                    "GenreOf(The Sopranos, Crime Drama)"
+                ]
+            },
+            "L18": [
+                "]}"
+            ],
+            "L19": [
+                "]}"
+            ],
+            "L20": [
+                "]}"
+            ],
+            "L21": {
+                "label": true,
+                "facts": [
+                    "IsSeries(BoJack Horseman) ∧ PlatformOf(BoJack Horseman, Netflix) ∧ OriginalSeriesOf(BoJack Horseman, Netflix)"
+                ]
+            },
+            "L22": {
+                "label": true,
+                "facts": [
+                    "IsSeries(BoJack Horseman) ∧ PlatformOf(BoJack Horseman, Netflix) ∧ OriginalSeriesOf(Netflix, BoJack Horseman)"
+                ]
+            },
+            "L23": {
+                "label": true,
+                "facts": [
+                    "IsSeries(BoJack Horseman) ∧ PlatformOf(BoJack Horseman, Netflix) ∧ CreatorOf(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L24": 1,
+            "L25": 1,
+            "L26": 1,
+            "L27": 1,
+            "L28": 1,
+            "L29": 1,
+            "L30": 1,
+            "L31": 1,
+            "L32": 1,
+            "L33": 1,
+            "L34": 1,
+            "L35": 1,
+            "L36": 1,
+            "L37": 1,
+            "L38": 1,
+            "L39": 1,
+            "L40": 1,
+            "L41": 1,
+            "L42": 1,
+            "L43": 1,
+            "L44": 1,
+            "L45": 1,
+            "L46": 1,
+            "L47": 1,
+            "L48": 1,
+            "L49": 1,
+            "L50": 1,
+            "L51": 1,
+            "L52": 1,
+            "L53": 1,
+            "L54": 1,
+            "L55": 1,
+            "L56": 1,
+            "L57": 1,
+            "L58": 1,
+            "L59": 1,
+            "L60": 1,
+            "L61": 1,
+            "L62": 1,
+            "L63": 1,
+            "L64": 1,
+            "L65": 1,
+            "L66": 1,
+            "L67": 1,
+            "L68": 1,
+            "L69": 1,
+            "L70": 1,
+            "L71": 1,
+            "L72": 1,
+            "L73": 1,
+            "L74": [
+                "Claim: The Beatles were a rock band from England"
+            ],
+            "L75": 1,
+            "L76": 1,
+            "L77": 1,
+            "L78": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L79": [
+                "Human: Hi! I'm trying to find out if a certain statement is true or false. Can you help me?"
+            ],
+            "L80": 1
+        }
+    }
+]

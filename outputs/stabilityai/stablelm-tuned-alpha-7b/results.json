@@ -1,0 +1,113 @@
+[
+    {
+        "STATS": {
+            "INPUT": "Empress Matilda moved to Germany as a child",
+            "CONSIDERED_TOKENS": {
+                "Emp": 0.0,
+                "ress": 1.0,
+                "ĠMat": 0.0,
+                "ilda": 1.0,
+                "Ġmoved": 1.0,
+                "Ġto": 0.0,
+                "ĠGermany": 1.0,
+                "Ġas": 0.0,
+                "Ġa": 0.0,
+                "Ġchild": 1.0
+            }
+        },
+        "_INFERENCE": "",
+        "HS": {
+            "L0": "",
+            "L1": "",
+            "L2": "",
+            "L3": "",
+            "L4": "",
+            "L5": "",
+            "L6": "",
+            "L7": "",
+            "L8": "",
+            "L9": "",
+            "L10": "",
+            "L11": "",
+            "L12": "",
+            "L13": "",
+            "L14": "",
+            "L15": "",
+            "L16": ""
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Robin was murdered by the Joker in a 1989 book",
+            "CONSIDERED_TOKENS": {
+                "Rob": 0.0,
+                "Ġin": 1.0,
+                "Ġwas": 0.0,
+                "Ġmurdered": 1.0,
+                "Ġby": 0.0,
+                "Ġthe": 0.0,
+                "ĠJ": 0.0,
+                "oker": 1.0,
+                "Ġa": 0.0,
+                "Ġ1989": 0.0,
+                "Ġbook": 1.0
+            }
+        },
+        "_INFERENCE": "",
+        "HS": {
+            "L0": "",
+            "L1": "",
+            "L2": "",
+            "L3": "",
+            "L4": "",
+            "L5": "",
+            "L6": "",
+            "L7": "",
+            "L8": "",
+            "L9": "",
+            "L10": "",
+            "L11": "",
+            "L12": "",
+            "L13": "",
+            "L14": "",
+            "L15": "",
+            "L16": ""
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Bojack Horseman's creator is also American",
+            "CONSIDERED_TOKENS": {
+                "Bo": 0.0,
+                "jack": 1.0,
+                "ĠHorse": 0.0,
+                "man": 1.0,
+                "'s": 0.0,
+                "Ġcreator": 1.0,
+                "Ġis": 0.0,
+                "Ġalso": 0.0,
+                "ĠAmerican": 0.0
+            }
+        },
+        "_INFERENCE": "",
+        "HS": {
+            "L0": "",
+            "L1": "",
+            "L2": "",
+            "L3": "",
+            "L4": "",
+            "L5": "",
+            "L6": "",
+            "L7": "",
+            "L8": "",
+            "L9": "",
+            "L10": "",
+            "L11": "",
+            "L12": "",
+            "L13": "",
+            "L14": "",
+            "L15": "",
+            "L16": ""
+        }
+    }
+]

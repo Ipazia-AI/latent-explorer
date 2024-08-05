@@ -1,0 +1,860 @@
+[
+    {
+        "STATS": {
+            "INPUT": "Empress Matilda moved to Germany as a child",
+            "CONSIDERED_TOKENS": {
+                "▁Em": 0.0,
+                "press": 1.0,
+                "▁Mat": 0.0,
+                "ilda": 1.0,
+                "▁moved": 1.0,
+                "▁to": 0.0,
+                "▁Germany": 1.0,
+                "▁as": 0.0,
+                "▁a": 0.0,
+                "▁child": 1.0
+            }
+        },
+        "_INFERENCE": {
+            "label": false,
+            "facts": [
+                "isHistoricalFigure(Empress Matilda)",
+                "wasBornIn(England, Empress Matilda)",
+                "didNotMoveTo(Germany, Empress Matilda)"
+            ]
+        },
+        "HS": {
+            "L0": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles)",
+                    "OriginOf(The Beatles, Liverpool)",
+                    "CountryOf(Liverpool, England) ∧ ¬CountryOf(The Beatles, Germany)"
+                ]
+            },
+            "L1": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L2": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles)",
+                    "IsChild(The Beatles, Milledge)"
+                ]
+            },
+            "L3": {
+                "label": false,
+                "facts": [
+                    "IsNot(The Beatles, A Band)",
+                    "IsNot(The Beatles, From England)"
+                ]
+            },
+            "L4": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Mary Queen of Scots)",
+                    "GenderOf(Mary Queen of Scots, Female)"
+                ]
+            },
+            "L5": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Queen Elizabeth II)",
+                    "IsRoyalty(Queen Elizabeth II)",
+                    "GenderOf(Queen Elizabeth II, Female)"
+                ]
+            },
+            "L6": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Mary Queen of Scots)",
+                    "IsRoyalty(Mary Queen of Scots)",
+                    "IsQueenOf(Mary Queen of Scots, Scotland)"
+                ]
+            },
+            "L7": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles)",
+                    "IsMemberOf(The Beatles, John Lennon)",
+                    "IsMemberOf(The Beatles, Paul McCartney)",
+                    "IsMemberOf(The Beatles, George Harrison)",
+                    "IsMemberOf(The Beatles, Ringo Starr)",
+                    "IsGenderOf(The Beatles, Female)"
+                ]
+            },
+            "L8": {
+                "label": false,
+                "facts": [
+                    "IsTitle(MotherOf(William The Conqueror), Empress Matilda)",
+                    "IsHistoricalFigure(Empress Matilda)"
+                ]
+            },
+            "L9": {
+                "label": false,
+                "facts": [
+                    "IsTitle(Empress)",
+                    "IsHistoricalFigure(Matilda of Tuscany)",
+                    "SpouseOf(Matilda of Tuscany, Henry V, Holy Roman Emperor)"
+                ]
+            },
+            "L10": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsAlsoKnownAs(Empress Matilda, Empress Maude)"
+                ]
+            },
+            "L11": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "IsAlsoKnownAs(Empress Matilda, Empress Maud)",
+                    "IsDaughterOf(King Henry I of England)",
+                    "IsMotherOf(King Henry II of England)"
+                ]
+            },
+            "L12": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "IsAlsoKnownAs(Empress Matilda, Empress Maud)",
+                    "IsDaughterOf(King Henry I of England)",
+                    "IsMotherOf(King Henry II of England)"
+                ]
+            },
+            "L13": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsAlsoKnownAs(Empress Matilda, Empress Maud)"
+                ]
+            },
+            "L14": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsAlsoKnownAs(Empress Matilda, Empress Maud)"
+                ]
+            },
+            "L15": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsAlsoKnownAs(Empress Matilda, Matilda of Tuscany)"
+                ]
+            },
+            "L16": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "LivedIn(Empress Matilda, England)"
+                ]
+            },
+            "L17": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "LivedIn(Empress Matilda, England)"
+                ]
+            },
+            "L18": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "LivedIn(Empress Matilda, England)"
+                ]
+            },
+            "L19": {
+                "label": false,
+                "facts": [
+                    "IsPerson(Empress Matilda)",
+                    "LivedIn(Empress Matilda, England)"
+                ]
+            },
+            "L20": {
+                "label": false,
+                "facts": [
+                    "IsEmpress(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsMotherOf(Empress Matilda, King Stephen of England)"
+                ]
+            },
+            "L21": {
+                "label": false,
+                "facts": [
+                    "IsEmpress(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsMotherOf(Empress Matilda, King Stephen of England)"
+                ]
+            },
+            "L22": {
+                "label": false,
+                "facts": [
+                    "IsEmpress(Empress Matilda)",
+                    "IsDaughterOf(Empress Matilda, King Henry I of England)",
+                    "IsMotherOf(Empress Matilda, King Stephen of England)"
+                ]
+            },
+            "L23": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles)",
+                    "OriginOf(The Beatles, Liverpool)",
+                    "CountryOf(Liverpool, England)"
+                ]
+            },
+            "L24": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress Matilda)",
+                    "MotherOf(Empress Matilda, King Henry I of England)",
+                    "FatherOf(Empress Matilda, King Henry I of England)"
+                ]
+            },
+            "L25": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress of China)",
+                    "RulerOf(Empress of China, China)"
+                ]
+            },
+            "L26": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Empress of China)",
+                    "RulerOf(Empress of China, China)"
+                ]
+            },
+            "L27": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Queen Victoria)"
+                ]
+            },
+            "L28": {
+                "label": true,
+                "facts": [
+                    "IsEmpress(Queen Victoria)"
+                ]
+            },
+            "L29": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L30": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L31": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L32": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L33": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L34": [
+                "I'm ready to assist you with your next question or statement! Please go ahead and provide the next input."
+            ],
+            "L35": [
+                "I'm ready to assist you with your next question or request! Please go ahead and ask me anything you'd like to know or discuss."
+            ],
+            "L36": [
+                "I'm ready to assist you with your next question or request! Please go ahead and ask me anything you'd like to know or discuss."
+            ],
+            "L37": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L38": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L39": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            },
+            "L40": [
+                "I'm ready to assist you with your next question or statement! Please go ahead and provide the next input."
+            ]
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Robin was murdered by the Joker in a 1989 book",
+            "CONSIDERED_TOKENS": {
+                "▁Robin": 1.0,
+                "▁was": 0.0,
+                "▁murder": 0.0,
+                "ed": 1.0,
+                "▁by": 0.0,
+                "▁the": 0.0,
+                "▁J": 0.0,
+                "oker": 1.0,
+                "▁in": 1.0,
+                "▁a": 0.0,
+                "▁": 0.0,
+                "1": 0.0,
+                "9": 0.0,
+                "8": 0.0,
+                "▁book": 1.0
+            }
+        },
+        "_INFERENCE": {
+            "label": false,
+            "facts": [
+                "isFictionalCharacter(Robin)",
+                "isVictimOf(Joker)",
+                "isDeceased(Robin)",
+                "isFictionalWork(1989 book)",
+                "isNotRealEvent"
+            ]
+        },
+        "HS": {
+            "L0": {
+                "label": false,
+                "facts": [
+                    "IsAuthor(Boek)",
+                    "NoBooksWritten(Boek)"
+                ]
+            },
+            "L1": [
+                "Here's the updated list of facts:"
+            ],
+            "L2": {
+                "label": false,
+                "facts": [
+                    "IsAuthor(J.K. Rowling)",
+                    "IsBook(Harry Potter)",
+                    "TitleOf(Harry Potter, Harry Potter and the Philosopher's Stone)"
+                ]
+            },
+            "L3": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles)",
+                    "IsCharacter(Robin)"
+                ]
+            },
+            "L4": {
+                "label": false,
+                "facts": [
+                    "IsBatmanVillain(Joker)",
+                    "IsEnemyOf(Batman, Joker)"
+                ]
+            },
+            "L5": {
+                "label": false,
+                "facts": [
+                    "IsBatmanVillain(Joker)",
+                    "IsEnemyOf(Batman, Joker)",
+                    "IsComicBookCharacter(Joker)"
+                ]
+            },
+            "L6": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "IsComicBookSeries(Batman)"
+                ]
+            },
+            "L7": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "IsComicBookSeries(Batman)"
+                ]
+            },
+            "L8": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "IsComicBookSeries(Batman)"
+                ]
+            },
+            "L9": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Joker)",
+                    "IsEnemyOf(Batman, Joker)",
+                    "HasAppearedIn(Joker, Batman: The Dark Knight)"
+                ]
+            },
+            "L10": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "HasSuperpower(Joker, Insanity)"
+                ]
+            },
+            "L11": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "HasSuperpower(Joker, Insanity)"
+                ]
+            },
+            "L12": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "HasSuperpower(Joker, Insanity)"
+                ]
+            },
+            "L13": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "HasAppearedIn(Joker, Batman: The Dark Knight)"
+                ]
+            },
+            "L14": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "HasAppearedIn(Joker, Batman: The Dark Knight)"
+                ]
+            },
+            "L15": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Robin)",
+                    "IsSidekickOf(Batman, Robin)",
+                    "IsSuperhero(Robin)"
+                ]
+            },
+            "L16": {
+                "label": false,
+                "facts": [
+                    "IsFictionalCharacter(Joker)",
+                    "IsEnemyOf(Batman, Joker)",
+                    "HasAppearedIn(Batman, The Dark Knight)",
+                    "HasAppearedIn(Batman, The Dark Knight Rises)"
+                ]
+            },
+            "L17": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsEnemyOf(Joker, Batman)",
+                    "HasSuperpower(Joker, Insanity)"
+                ]
+            },
+            "L18": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Joker)",
+                    "IsVictimOf(Joker, Batman)",
+                    "IsComicBookSeries(Batman)",
+                    "IsComicBookCharacter(Joker, Batman)"
+                ]
+            },
+            "L19": {
+                "label": false,
+                "facts": [
+                    "IsComicBookCharacter(Joker)",
+                    "IsEnemyOf(Batman, Joker)",
+                    "IsSupervillain(Joker)"
+                ]
+            },
+            "L20": {
+                "label": false,
+                "facts": [
+                    "IsComicBookCharacter(Robin)",
+                    "IsSidekickOf(Batman, Robin)",
+                    "DoesNotExist(Robin, The Beatles)"
+                ]
+            },
+            "L21": {
+                "label": false,
+                "facts": [
+                    "IsComicBookCharacter(Joker)",
+                    "IsEnemyOf(Batman, Joker)",
+                    "IsSupervillain(Joker)"
+                ]
+            },
+            "L22": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Joker)",
+                    "IsEnemyOf(Batman)",
+                    "IsFrom(GothamCity)"
+                ]
+            },
+            "L23": {
+                "label": true,
+                "facts": [
+                    "IsComicBookCharacter(Joker)",
+                    "IsEnemyOf(Batman, Joker)",
+                    "IsFrom(Joker, GothamCity)"
+                ]
+            },
+            "L24": [
+                "This statement is true."
+            ],
+            "L25": [
+                "This statement is true."
+            ],
+            "L26": [
+                "This statement is true."
+            ],
+            "L27": [
+                "This statement is true."
+            ],
+            "L28": [
+                "This statement is true."
+            ],
+            "L29": [
+                "This statement is true."
+            ],
+            "L30": [
+                "This statement is true."
+            ],
+            "L31": [
+                "This statement is true."
+            ],
+            "L32": [
+                "This statement is true."
+            ],
+            "L33": [
+                "This statement is true."
+            ],
+            "L34": [
+                "This statement is true."
+            ],
+            "L35": [
+                "This statement is true."
+            ],
+            "L36": [
+                "I'm ready to assist you with more questions! Go ahead and ask your next one."
+            ],
+            "L37": [
+                "I'm ready to assist you with more questions! Go ahead and ask your next one."
+            ],
+            "L38": [
+                "I'm ready to assist you with more claims! Please go ahead and present the next one."
+            ],
+            "L39": [
+                "This statement is true."
+            ],
+            "L40": [
+                "This statement is true."
+            ]
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Bojack Horseman's creator is also American",
+            "CONSIDERED_TOKENS": {
+                "▁Bo": 0.0,
+                "jack": 1.0,
+                "▁H": 0.0,
+                "ors": 0.0,
+                "eman": 1.0,
+                "'": 0.0,
+                "s": 0.0,
+                "▁cre": 0.0,
+                "ator": 1.0,
+                "▁is": 0.0,
+                "▁also": 0.0,
+                "▁American": 0.0
+            }
+        },
+        "_INFERENCE": {
+            "label": false,
+            "facts": [
+                "isCreatorOf(Bojack Horseman, Raphael Bob-Waksberg)",
+                "isAmerican(Raphael Bob-Waksberg)"
+            ]
+        },
+        "HS": {
+            "L0": {
+                "label": false,
+                "facts": [
+                    "IsBand(The Beatles)",
+                    "MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool)",
+                    "CountryOf(Liverpool, England)"
+                ]
+            },
+            "L1": [
+                "I apologize, it seems you have provided a misspelled word. The correct spelling is \"John\"."
+            ],
+            "L2": {
+                "label": false,
+                "facts": [
+                    "IsNotAWord(jackman)",
+                    "DoesNotExist(jackman)"
+                ]
+            },
+            "L3": {
+                "label": false,
+                "facts": [
+                    "IsNotAWord(Jackman)",
+                    "IsActor(Hugh Jackman)"
+                ]
+            },
+            "L4": {
+                "label": false,
+                "facts": [
+                    "IsCreator(The Beatles, John Lennon, Paul McCartney, George Harrison, Ringo Starr)"
+                ]
+            },
+            "L5": {
+                "label": false,
+                "facts": [
+                    "IsCreatorOf(BoJack Horseman, Netflix Original)",
+                    "IsTelevisionShow(BoJack Horseman)",
+                    "IsAdultSwimShow(BoJack Horseman) ∧ ¬IsNetflixOriginal(BoJack Horseman)"
+                ]
+            },
+            "L6": {
+                "label": false,
+                "facts": [
+                    "IsShow(BoJack Horseman)",
+                    "CreatorOf(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L7": {
+                "label": true,
+                "facts": [
+                    "IsTvShow(BoJack Horseman)",
+                    "CreatorOf(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L8": {
+                "label": true,
+                "facts": [
+                    "IsTvShow(BoJack Horseman)",
+                    "MainCharacter(BoJack Horseman, BoJack)"
+                ]
+            },
+            "L9": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Homer Simpson)",
+                    "IsCharacter(Homer Simpson, The Simpsons)"
+                ]
+            },
+            "L10": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Homer Simpson)",
+                    "IsCharacter(Homer Simpson, The Simpsons)"
+                ]
+            },
+            "L11": {
+                "label": true,
+                "facts": [
+                    "IsPerson(BoJack Horseman)",
+                    "IsActor(BoJack Horseman)",
+                    "IsAnimatedSeries(BoJack Horseman)"
+                ]
+            },
+            "L12": {
+                "label": false,
+                "facts": [
+                    "IsPerson(BoJack Horseman)",
+                    "IsCharacter(BoJack Horseman, BoJack Horseman)",
+                    "IsShow(BoJack Horseman)"
+                ]
+            },
+            "L13": {
+                "label": true,
+                "facts": [
+                    "IsPerson(BoJack Horseman)",
+                    "IsCreatorOf(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L14": {
+                "label": true,
+                "facts": [
+                    "IsPerson(BoJack Horseman)",
+                    "IsActor(BoJack Horseman)",
+                    "IsAnimatedSeries(BoJack Horseman)"
+                ]
+            },
+            "L15": {
+                "label": true,
+                "facts": [
+                    "IsCreator(BoJack Horseman, Raphael Bob-Waksberg)",
+                    "IsShow(BoJack Horseman) ∧ IsAnimatedSeries(BoJack Horseman)"
+                ]
+            },
+            "L16": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)",
+                    "IsShow(Bojack Horseman) ∧ CreatedBy(Bojack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L17": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)",
+                    "IsShow(Bojack Horseman) ∧ IsAnimated(Bojack Horseman)"
+                ]
+            },
+            "L18": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Bojack Horseman)",
+                    "IsActor(BoJack Horseman)",
+                    "IsTelevisionShow(BoJack Horseman)"
+                ]
+            },
+            "L19": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)",
+                    "IsTelevisionShow(Bojack Horseman)"
+                ]
+            },
+            "L20": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)",
+                    "IsTelevisionShow(Bojack Horseman)"
+                ]
+            },
+            "L21": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)",
+                    "IsTelevisionShow(Bojack Horseman)"
+                ]
+            },
+            "L22": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L23": {
+                "label": true,
+                "facts": [
+                    "IsCreator(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L24": {
+                "label": true,
+                "facts": [
+                    "IsCreator(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L25": {
+                "label": true,
+                "facts": [
+                    "IsCreator(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L26": {
+                "label": true,
+                "facts": [
+                    "IsCreator(BoJack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L27": {
+                "label": true,
+                "facts": [
+                    "IsCreator(Bojack Horseman, Raphael Bob-Waksberg)"
+                ]
+            },
+            "L28": {
+                "label": true,
+                "facts": [
+                    "IsTelevisionShow(BoJack Horseman)",
+                    "IsStreamingShow(BoJack Horseman)",
+                    "HasActor(BoJack Horseman, Will Arnett)",
+                    "HasActor(BoJack Horseman, Amy Sedaris)",
+                    "HasActor(BoJack Horseman, Paul F. Tompkins)"
+                ]
+            },
+            "L29": [
+                "This statement is true."
+            ],
+            "L30": [
+                "This statement is true."
+            ],
+            "L31": [
+                "This statement is true."
+            ],
+            "L32": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L33": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L34": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L35": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L36": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L37": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L38": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L39": [
+                "Hello! I'm here to help you with any questions you may have. Is there something specific you'd like to know or discuss?"
+            ],
+            "L40": {
+                "label": true,
+                "facts": [
+                    "IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)",
+                    "OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)"
+                ]
+            }
+        }
+    }
+]

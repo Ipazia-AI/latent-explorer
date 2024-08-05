@@ -1,0 +1,10 @@
+{
+    "num_inputs": 3,
+    "model": "mistralai/Mistral-7B-Instruct-v0.1",
+    "num_layers": 32,
+    "device": "CUDA(x1)",
+    "prompts": {
+        "source": "<s>[INST] You are a journalist with expertise in fact-checking. Your role is to evaluate the truthfulness of factual claims. To uphold journalistic integrity, you must produce a report containing a binary assessment and all the factual information that supports your evaluation.\n\nGeorge W. Bush won a presidential election [/INST]{\"label\": true, \"facts\": [\"isPolitician(George W. Bush) ∧ isFormerUSPresident(George W. Bush)\", \"ParticipatedIn(2000 United States presidential election, George W. Bush)\", \"BecamePresidentOf(United States of America, George W. Bush)\"]}</s> [INST] $INPUT [/INST]",
+        "target": "<s>[INST] You are an assistant with expertise in fact-checking. Your role is to assess claims.\n\nBerlin is the capital of Germany [/INST]{\"label\": true, \"facts\": [\"IsCity(Berlin) ∧ CountryOf(Berlin, Germany)\", \"IsCountry(Germany) ∧ CapitalOf(Germany, Berlin)\"]}</s> [INST] Edgar Allan Poe wrote Hamlet [/INST]{\"label\": false, \"facts\": [\"isWriter(Edgar Allan Poe)\", \"IsPlay(Hamlet)\", \"AuthorOf(Hamlet, William Shakespeare) ∧ ¬AuthorOf(Hamlet, Edgar Allan Poe)\"]}</s> [INST] The Beatles were a rock band from England [/INST]{\"label\": true, \"facts\": [\"IsBand(The Beatles) ∧ MusicGenreOf(The Beatles, Rock)\", \"OriginOf(The Beatles, Liverpool) ∧ CountryOf(Liverpool, England)\"]}</s> [INST] x [/INST]"
+    }
+}

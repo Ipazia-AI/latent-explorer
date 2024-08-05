@@ -1,0 +1,435 @@
+[
+    {
+        "STATS": {
+            "INPUT": "Empress Matilda moved to Germany as a child",
+            "CONSIDERED_TOKENS": {
+                "▁Em": 0.0,
+                "press": 1.0,
+                "▁Mat": 0.0,
+                "ilda": 1.0,
+                "▁moved": 1.0,
+                "▁to": 0.0,
+                "▁Germany": 1.0,
+                "▁as": 0.0,
+                "▁a": 0.0,
+                "▁child": 1.0
+            }
+        },
+        "_INFERENCE": {
+            "label": false,
+            "facts": [
+                "isPolitician(Empress Matilda) ∧ isFormerEmpress(Empress Matilda)",
+                "ParticipatedIn(1114 German invasion of England, Empress Matilda)",
+                "MovedTo(Germany, Empress Matilda)"
+            ]
+        },
+        "HS": {
+            "L0": {
+                "label": true,
+                "facts": [
+                    "IsRelation(child, parent)",
+                    "IsRelation(parent, child)"
+                ]
+            },
+            "L1": "label",
+            "L2": "label",
+            "L3": "label",
+            "L4": "label",
+            "L5": "label",
+            "L6": "{\n\"label\": false,\n\"facts\": [\"IsCountry(Germany)\", \"CapitalOf(Germany, Berlin)\", \"IsCity(Berlin)\", \"IsCountry(France)\", \"CapitalOf(France, Paris)\", \"IsCity(Paris)\", \"IsCountry(Spainda)\", \"CapitalOf(Spainda, Madrid)\", \"IsCountry(Italia)\", \"CapitalOf(Italia, Roma)\", \"Is",
+            "L7": "{\n\"label\": false,\n\"facts\": [\"IsCountry(Germany)\", \"CapitalOf(Germany, Berlin)\", \"IsCity(Berlin)\", \"IsCountry(France)\", \"CapitalOf(France, Paris)\", \"IsCity(Paris)\", \"IsCountry(Spain)\", \"CapitalOf(Spain, Madrid)\", \"IsCity(Madrid)\", \"IsCountry(Italy)\", \"CapitalOf(Italy",
+            "L8": "{\n\"label\": false,\n\"facts\": [\"IsCountry(Germany)\", \"IsCity(Berlin)\", \"CapitalOf(Germany, Berlin)\", \"IsCountry(England)\", \"IsCity(London)\", \"CapitalOf(England, London)\", \"IsCountry(France)\", \"IsCity(Paris)\", \"CapitalOf(France, Paris)\", \"IsCountry(Spain)\", \"IsCity(Madrid)\", \"",
+            "L9": "{\n\"label\": false,\n\"facts\": [\"IsCountry(Germany)\", \"IsCity(Berlin)\", \"CapitalOf(Germany, Berlin)\", \"IsCountry(England)\", \"IsCity(London)\", \"CapitalOf(England, London)\", \"IsCountry(France)\", \"IsCity(Paris)\", \"CapitalOf(France, Paris)\", \"IsCountry(Spain)\", \"IsCity(Madrid)\", \"",
+            "L10": "label",
+            "L11": "label",
+            "L12": "{\n\"label\": false,\n\"facts\": [\n\"IsCountry(Germany)\",\n\"IsCountry(France)\",\n\"IsCountry(Spain)\",\n\"IsCountry(Italy)\",\n\"IsCountry(United Kingdom)\",\n\"IsCountry(Sweden)\",\n\"IsCountry(Norway)\",\n\"IsCountry(Denmark)\",\n\"IsCountry(Netherlands)\",\n\"IsCountry(Belgium)\",\n\"",
+            "L13": "{\n\"label\": false,\n\"facts\": [\n\"IsCountry(Germany)\",\n\"IsCountry(France)\",\n\"IsCountry(Spain)\",\n\"IsCountry(Italy)\",\n\"IsCountry(United Kingdom)\",\n\"IsCountry(Sweden)\",\n\"IsCountry(Norway)\",\n\"IsCountry(Denmark)\",\n\"IsCountry(Netherlands)\",\n\"IsCountry(Belgium)\",\n\"",
+            "L14": "{\n\"label\": false,\n\"facts\": [\n\"IsCountry(Germany)\",\n\"IsCountry(France)\",\n\"IsCountry(Spain)\",\n\"IsCountry(Italy)\",\n\"IsCountry(United Kingdom)\",\n\"IsCountry(Sweden)\",\n\"IsCountry(Norway)\",\n\"IsCountry(Denmark)\",\n\"IsCountry(Netherlands)\",\n\"IsCountry(Belgium)\",\n\"",
+            "L15": "{\n\"label\": false,\n\"facts\": [\n\"IsCountry(Germany)\",\n\"IsCountry(France)\",\n\"IsCountry(Spain)\",\n\"IsCountry(Italy)\",\n\"IsCountry(United Kingdom)\",\n\"IsCountry(Sweden)\",\n\"IsCountry(Norway)\",\n\"IsCountry(Denmark)\",\n\"IsCountry(Netherlands)\",\n\"IsCountry(Belgium)\",\n\"",
+            "L16": "{\n\"label\": false,\n\"facts\": [\n\"IsCountry(Germany)\",\n\"IsCountry(France)\",\n\"IsCountry(Spain)\",\n\"IsCountry(Italy)\",\n\"IsCountry(United Kingdom)\",\n\"IsCountry(Sweden)\",\n\"IsCountry(Norway)\",\n\"IsCountry(Denmark)\",\n\"IsCountry(Netherlands)\",\n\"IsCountry(Belgium)\",\n\"",
+            "L17": {
+                "label": false,
+                "facts": [
+                    "IsCountry(Germany)",
+                    "IsCountry(France)",
+                    "IsCountry(Spain)",
+                    "IsCountry(Italy)",
+                    "IsCountry(United Kingdom)",
+                    "IsCountry(United States)"
+                ]
+            },
+            "L18": {
+                "label": false,
+                "facts": [
+                    "IsCountry(Germany)",
+                    "IsCountry(France)",
+                    "IsCountry(Spain)",
+                    "IsCountry(Italy)",
+                    "IsCountry(United Kingdom)",
+                    "IsCountry(United States)"
+                ]
+            },
+            "L19": {
+                "label": false,
+                "facts": [
+                    "IsCountry(Germany)",
+                    "IsCountry(France)",
+                    "IsCountry(Spain)",
+                    "IsCountry(Italy)",
+                    "IsCountry(United Kingdom)",
+                    "IsCountry(United States)"
+                ]
+            },
+            "L20": {
+                "label": false,
+                "facts": [
+                    "IsCountry(Germany)",
+                    "IsCountry(France)",
+                    "IsCountry(Spain)",
+                    "IsCountry(Italy)",
+                    "IsCountry(United Kingdom)",
+                    "IsCountry(United States)"
+                ]
+            },
+            "L21": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L22": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L23": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L24": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L25": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L26": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L27": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L28": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L29": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L30": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L31": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L32": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ]
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Robin was murdered by the Joker in a 1989 book",
+            "CONSIDERED_TOKENS": {
+                "▁Robin": 1.0,
+                "▁was": 0.0,
+                "▁murdered": 1.0,
+                "▁by": 0.0,
+                "▁the": 0.0,
+                "▁J": 0.0,
+                "oker": 1.0,
+                "▁in": 1.0,
+                "▁a": 0.0,
+                "▁": 0.0,
+                "1": 0.0,
+                "9": 0.0,
+                "8": 0.0,
+                "▁book": 1.0
+            }
+        },
+        "_INFERENCE": {
+            "label": false,
+            "facts": [
+                "isCharacter(Robin)",
+                "isCharacter(Joker)",
+                "isBook(Batman #436, 1989)",
+                "isEvent(Murder of Robin)"
+            ]
+        },
+        "HS": {
+            "L0": {
+                "label": true,
+                "facts": [
+                    "IsBook(book)",
+                    "IsGenre(book, Fiction)"
+                ]
+            },
+            "L1": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L2": {
+                "label": false,
+                "facts": [
+                    "isAuthor(J.K. Rowling)",
+                    "IsBook(Harry Potter) ∧ ¬AuthorOf(Harry Potter, J.K. Rowling)"
+                ]
+            },
+            "L3": {
+                "label": false,
+                "facts": [
+                    "IsBook(Robin Hobb)",
+                    "TitleOf(Robin Hobb, Robin Hobb)",
+                    "AuthorOf(Robin Hobb, Robin Hobb)"
+                ]
+            },
+            "L4": "{\n\"label\": false,\n\"facts\": [\n\"IsCharacter(Batman)\",\n\"IsCharacter(Robin)\",\n\"IsCharacter(Joker)\",\n\"IsCharacter(Alfred)\",\n\"IsCharacter(Commissioner Gordon)\",\n\"IsCharacter(Riddler)\",\n\"IsCharacter(Two-Face)\",\n\"IsCharacter(Catwoman)\",\n\"IsCharacter(Batgirl)\",\n\"IsCharacter(Batman (",
+            "L5": {
+                "label": false,
+                "facts": [
+                    "isCharacter(Batman)",
+                    "isCharacter(Joker)",
+                    "isCharacter(Batman) ∧ isCharacter(Joker) ∧ isRelatedTo(Batman, Joker)"
+                ]
+            },
+            "L6": "label",
+            "L7": {
+                "label": false,
+                "facts": [
+                    "isCharacter(Batman)",
+                    "isCharacter(Joker)",
+                    "isCharacter(Batman) ∧ isCharacter(Joker) ∧ isRelatedTo(Batman, Joker, Villain)"
+                ]
+            },
+            "L8": {
+                "label": false,
+                "facts": [
+                    "isCharacter(Batman)",
+                    "isCharacter(Joker)",
+                    "isMurder(Joker, Batman)"
+                ]
+            },
+            "L9": {
+                "label": false,
+                "facts": [
+                    "isCharacter(Batman)",
+                    "isCharacter(Joker)",
+                    "isRelated(Batman, Joker, Villain)",
+                    "isMurderer(Joker)"
+                ]
+            },
+            "L10": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsCharacter(Joker)",
+                    "IsRelatedTo(Batman, Joker, Villain)",
+                    "IsKnownFor(Joker, Crime)",
+                    "IsKnownFor(Batman, Crime-fighting)"
+                ]
+            },
+            "L11": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsCharacter(Joker)",
+                    "IsRelatedTo(Batman, Joker, Villain)",
+                    "IsKnownFor(Joker, Crime)",
+                    "IsKnownFor(Batman, Crime-fighting)"
+                ]
+            },
+            "L12": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsVillain(The Joker)",
+                    "IsMurder(The Joker)",
+                    "IsCrime(Murder)",
+                    "IsFiction(Batman)"
+                ]
+            },
+            "L13": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsVillain(The Joker)",
+                    "IsMovie(The Dark Knight)",
+                    "IsScene(The Dark Knight, The Joker's Laugh)"
+                ]
+            },
+            "L14": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsCharacter(Joker)",
+                    "IsRelatedTo(Batman, Joker)",
+                    "IsMovie(The Dark Knight)",
+                    "IsDirector(The Dark Knight, Christopher Nolan)",
+                    "IsActor(Batman, Christian Bale)",
+                    "IsActor(Joker, Heath Ledger)"
+                ]
+            },
+            "L15": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsCharacter(Joker)",
+                    "IsRelatedTo(Batman, Joker)",
+                    "IsFictional(Batman)",
+                    "IsFictional(Joker)"
+                ]
+            },
+            "L16": "{\n\"label\": false,\n\"facts\": [\n\"IsCharacter(Batman)\",\n\"IsCharacter(Joker)\",\n\"IsStory(Batman and Joker)\",\n\"IsEvent(Death of Robin)\",\n\"IsEvent(Resurrection of Robin)\",\n\"IsEvent(The Killing Joke)\",\n\"IsEvent(The Dark Knight Returns)\",\n\"IsEvent(The Knightfall)\",\n\"IsEvent(B",
+            "L17": "{\n\"label\": false,\n\"facts\": [\n\"IsCharacter(Batman)\",\n\"IsCharacter(Joker)\",\n\"IsStory(Batman and Joker)\",\n\"IsEvent(Death of Robin)\",\n\"IsEvent(Resurrection of Robin)\",\n\"IsEvent(The Killing Joke)\",\n\"IsEvent(The Dark Knight Returns)\",\n\"IsEvent(The Knightfall)\",\n\"IsEvent(B",
+            "L18": "{\n\"label\": false,\n\"facts\": [\n\"IsCharacter(Batman)\",\n\"IsCharacter(Joker)\",\n\"IsStory(Batman and Joker)\",\n\"IsEvent(Death of Robin)\",\n\"IsEvent(Resurrection of Robin)\",\n\"IsEvent(The Killing Joke)\",\n\"IsEvent(The Dark Knight Returns)\",\n\"IsEvent(The Knightfall)\",\n\"IsEvent(B",
+            "L19": {
+                "label": false,
+                "facts": [
+                    "IsCharacter(Batman)",
+                    "IsCharacter(Joker)",
+                    "IsStory(Batman and Joker)",
+                    "IsEvent(Murder of Thomas Wayne)",
+                    "IsEvent(Joker's Crime)",
+                    "IsEvent(Batman's Vengeance)"
+                ]
+            },
+            "L20": "label",
+            "L21": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L22": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L23": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L24": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L25": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L26": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L27": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L28": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L29": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L30": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you are asking?"
+            ],
+            "L31": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L32": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ]
+        }
+    },
+    {
+        "STATS": {
+            "INPUT": "Bojack Horseman's creator is also American",
+            "CONSIDERED_TOKENS": {
+                "▁Bo": 0.0,
+                "jack": 1.0,
+                "▁Horse": 0.0,
+                "man": 1.0,
+                "'": 0.0,
+                "s": 0.0,
+                "▁creator": 1.0,
+                "▁is": 0.0,
+                "▁also": 0.0,
+                "▁American": 0.0
+            }
+        },
+        "_INFERENCE": {
+            "label": true,
+            "facts": [
+                "isCreatorOf(BoJack Horseman, Raphael Bob-Waksberg)",
+                "isAmerican(Raphael Bob-Waksberg)"
+            ]
+        },
+        "HS": {
+            "L0": {
+                "label": true,
+                "facts": [
+                    "IsPerson(Albert Einstein)",
+                    "OccupationOf(Albert Einstein, Physicist)",
+                    "BirthPlaceOf(Albert Einstein, Ulm, Germany)"
+                ]
+            },
+            "L1": "label",
+            "L2": "label",
+            "L3": "label",
+            "L4": "label",
+            "L5": "label",
+            "L6": "label",
+            "L7": "label",
+            "L8": "label",
+            "L9": "label",
+            "L10": "label",
+            "L11": "label",
+            "L12": "label",
+            "L13": "label",
+            "L14": "label",
+            "L15": "label",
+            "L16": "label",
+            "L17": "label",
+            "L18": "label",
+            "L19": {
+                "label": true,
+                "facts": [
+                    "IsShow(BoJack Horseman)",
+                    "IsCharacter(BoJack Horseman)",
+                    "IsActor(Will Arnett)"
+                ]
+            },
+            "L20": [
+                "is a fictional character created by the American cartoonist and animator, BoJack Horseman. BoJack Horseman is a Netflix original animated series that follows the life of BoJack Horseman, a washed-up horse actor who is struggling to find his place in the world. BoJack is known for his cynical and self-deprecating personality, as well as his love of alcohol and drugs. The show has been praised for its dark and mature themes, as well as"
+            ],
+            "L21": [
+                "is a fictional character created by the American cartoonist and animator Matt Groening. He is the main character in the animated television series \"The Simpsons\"."
+            ],
+            "L22": [
+                "is a fictional character created by American cartoonist Charles Schulz. He first appeared in the comic strip \"Peanuts\" in 1950 and has since become one of the most iconic characters in popular culture."
+            ],
+            "L23": [
+                "is a fictional character created by author Neil Gaiman. He is a character in the television series \"The Sandman\" and the comic book series \"The Sandman: Overture\"."
+            ],
+            "L24": [
+                "is a fictional character created by author J.K. Rowling. He is a student at Hogwarts School of Witchcraft and Wizardry and is known for his bravery and loyalty to his friends."
+            ],
+            "L25": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you are asking?"
+            ],
+            "L26": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you are asking?"
+            ],
+            "L27": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L28": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L29": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L30": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L31": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ],
+            "L32": [
+                "I'm sorry, I didn't understand your question. Could you please provide more context or clarify what you're asking?"
+            ]
+        }
+    }
+]
