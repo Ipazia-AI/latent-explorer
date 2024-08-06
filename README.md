@@ -30,7 +30,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Pyt
 pip install latent-explorer
 ```
 
-or download [repository](https://github.com/Ipazia-AI/latent-explorer) and install the package with 
+or download the [repository](https://github.com/Ipazia-AI/latent-explorer) and install the package with 
 ` pip install -e . `
 
 ## Demo
