@@ -2,7 +2,7 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 [![Static Badge](https://img.shields.io/badge/PyPI-latent--explorer-red)](https://pypi.org/project/latent-explorer)
-[![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FsaturnMars%2Flatent-explorer%2Fmain%2Fpyproject.toml&query=%24.project.version&label=release&color=green)](https://pypi.org/)
+[![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FsaturnMars%2Flatent-explorer%2Fmain%2Fpyproject.toml&query=%24.project.version&label=release&color=green)](https://github.com/Ipazia-AI/latent-explorer/releases)
 [![Static Badge](https://img.shields.io/badge/website-online-green)](https://github.com/Ipazia-AI)
 [![Static Badge](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2404.03623-orange)](
 https://doi.org/10.48550/arXiv.2404.03623)
