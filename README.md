@@ -11,9 +11,12 @@ https://doi.org/10.48550/arXiv.2404.03623)
 Latent-Explorer is the Python implementation of the framework proposed in the paper [*Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph*](https://arxiv.org/abs/2404.03623) to appear in the 1<sup>st</sup> [Conference of Language Modeling](https://colmweb.org/index.html) (COLM).
 
 ## Overview
-This framework analyses the process of factual knowledge resolution of Large Language Models (LLMs), representing its dynamics through graphs.
-Using activation patching, it decodes the semantics, in the form of factual information, from the LLM latent representations (also known as residual stream or vector space) during the model's inference for the task of claim verification on entire input sentences. 
-This framework can be used to study the LLMs' latent representations for several aspects, such as (i) which factual knowledge LLMs use to assess the truthfulness of factual claims, (ii) how this factual knowledge evolves across hidden layers, and (iii) whether there are any distinctive patterns in this evolution.
+This framework decodes factual knowledge embedded in token representations from a vector space into a set of ground predicates, exhibiting its layer-wise evolution through a dynamic knowledge graph. 
+It employes seperate model's inferences, with the technique of activation patching, to interpret the semantics embedded within the latent representations of the original inference.
+This framework can be employed to study the vector space of LLMs to address several research questions, including:
+(i) which factual knowledge LLMs use in claim verification,
+(ii) how this knowledge evolves throughout the model's inference, and
+(iii) whether there are any distinctive patterns in this evolution.
 
 ![Framework](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/framework.png)
 
