@@ -32,7 +32,7 @@ or download [repository](https://github.com/Ipazia-AI/latent-explorer) and insta
 ## Demo
 The folder `tutorial` includes a script showcasing the pipeline [`tutorial/script.py`](./tutorial/script.py)
 
-*Since this framework executes several language model inferences, the use of a GPU is recommended ([see install CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
+*Since this framework performs multiple language model inferences, using a GPU is recommended ([see CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html))
 
 ## Usage
 
