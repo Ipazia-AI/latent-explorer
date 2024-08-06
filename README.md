@@ -1,6 +1,7 @@
 ![Logo](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/logo.png)
 
 [![Static Badge](https://img.shields.io/badge/Licence-blue?label=CC%20BY-NC-SA%204.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Static Badge](https://img.shields.io/badge/PyPI-latent--explorer-red)](https://pypi.org/project/latent-explorer)
 [![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FsaturnMars%2Flatent-explorer%2Fmain%2Fpyproject.toml&query=%24.project.version&label=release&color=green)](https://pypi.org/)
 [![Static Badge](https://img.shields.io/badge/website-online-green)](https://github.com/Ipazia-AI)
 [![Static Badge](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2404.03623-orange)](
