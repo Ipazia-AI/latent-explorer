@@ -18,7 +18,6 @@ This framework can be used to study the LLMs' latent representations for several
 
 ![Contribution](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/contribution.png)
 
-*Since this framework executes several language model inferences, the use of a GPU is recommended ([install CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Python package
@@ -27,11 +26,13 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Pyt
 pip install latent-explorer
 ```
 
-or download and install the [GitHub repository](https://github.com/Ipazia-AI/latent-explorer) with 
+or download [repository](https://github.com/Ipazia-AI/latent-explorer) and install the package with 
 ` pip install -e . `
 
 ## Demo
-The folder `tutorial` includes a script showcasing the pipeline: [`./tutorial/script.py`](./tutorial/script.py)
+The folder `tutorial` includes a script showcasing the pipeline [`tutorial/script.py`](./tutorial/script.py)
+
+*Since this framework executes several language model inferences, the use of a GPU is recommended ([see install CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
 
 ## Usage
 
