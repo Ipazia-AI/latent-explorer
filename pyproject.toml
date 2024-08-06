@@ -14,10 +14,14 @@ dependencies = [
   "networkx-temporal"
 ]
 authors = [
-  { name="Marco Bronzini", email="m.bronzini@ipazia.com" },
+  { name="Ipazia AI", email="m.bronzini@ipazia.com" },
+]
+maintainers = [
+  {name = "Marco Bronzini", email = "m.bronzini@ipazia.com"}
 ]
 description = "A Python library based on the technique of activation patching to represent the factual knowledge encoded in the latent space of large language models as dynamic knowledge graphs."
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -32,7 +36,8 @@ classifiers = [
 keywords = ["Large Language Models", "Latent Representations", "Propositional Probes", "Residual Stream", "Factual Knowledge", "Activation Patching", "Graphs", "Dynamic Graphs", "Knowledge Graphs", "LLMs"]
 
 [project.urls]
-Homepage = "https://github.com/saturnMars/latent-explorer/tree/main"
+Repository = "https://github.com/Ipazia-AI/latent-explorer"
+Homepage = "https://github.com/Ipazia-AI"
 
 [build-system]
 requires = ["setuptools>=61.0"]

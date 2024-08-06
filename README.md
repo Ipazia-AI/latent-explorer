@@ -8,7 +8,7 @@ This framework can be used to study the LLMs' latent representations for several
 
 ![Contribution](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/contribution.png)
 
-![Framework](images/framework.png)
+![Framework](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/framework.png)
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Python package
