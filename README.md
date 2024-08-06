@@ -1,6 +1,6 @@
 ![Logo](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/logo.png)
 
-[![Static Badge](https://img.shields.io/badge/Licence-blue?label=CC%20BY-NC-SA%204.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 [![Static Badge](https://img.shields.io/badge/PyPI-latent--explorer-red)](https://pypi.org/project/latent-explorer)
 [![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FsaturnMars%2Flatent-explorer%2Fmain%2Fpyproject.toml&query=%24.project.version&label=release&color=green)](https://pypi.org/)
 [![Static Badge](https://img.shields.io/badge/website-online-green)](https://github.com/Ipazia-AI)
@@ -42,44 +42,44 @@ The folder `tutorial` includes a script showcasing the pipeline [`tutorial/scrip
 import latent_explorer
 ```
 
-### (1.a) Initialize the application with the LLM and the inputs
+### Initialize the application with the LLM and the inputs
 ```python
 explorer = latent_explorer.LatentExplorer(
   model_name = "meta-llama/llama-2-7b-chat-hf", 
   inputs = ["The capital of France is Paris"]
 )
 ```
-### (1.b) Prepare the textual prompts
+### Prepare the textual prompts
 ```python
 explorer.generate_prompts(verbose = True)
 ```
 
-### (2) Perform the inference and get the hidden states
+### Perform the inference and get the hidden states
 ```python
 explorer.inference(parse_output = True, output_hidden_states = True)
 ```
 
-### (3.a) Probe each hidden states
+### Probe each hidden states
 ```python
 results = explorer.probe_hidden_states()
 ```
 
-### (3.b) Save the textual results
+### Save the textual results
 ```python
 latent_explorer.save_results(results, folder_path = "outputs")
 ```
 
-### (4.a) Generate the dynamic knowledge graphs
+### Generate the dynamic knowledge graphs
 ```python
 tg = latent_explorer.TempoGrapher(results)
 ```
 
-### (4.b) Get the graphs
+### Get the graphs
 ```python
 graphs = tg.get_graphs()
 ```
 
-### (4.c) Generate and save the graphical figures
+### Generate and save the graphical figures
 ```python
 tg.save_graphs(folder_path = "outputs")
 ```
@@ -97,7 +97,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Acknowledgements
 This implementation is powered by [LitGPT](https://github.com/Lightning-AI/litgpt), conceptualised, designed and developed by [Marco Bronzini](https://www.linkedin.com/in/bronzinimarco).
-
 This work has been funded by [Ipazia S.p.A.](https://ipazia.com)
 
 ## Citation
@@ -115,8 +114,6 @@ If you use this package or its code in your research, please cite the following 
 }
 ```
 ## License
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
