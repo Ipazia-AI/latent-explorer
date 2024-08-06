@@ -1,6 +1,6 @@
 [project]
 name = "latent-explorer"
-version = "0.1.2"
+version = "0.2.1"
 dependencies = [
   "litgpt", 
   "huggingface-hub", 
@@ -21,7 +21,7 @@ maintainers = [
 ]
 description = "A Python library based on the technique of activation patching to represent the factual knowledge encoded in the latent space of large language models as dynamic knowledge graphs."
 readme = "README.md"
-license = {text = "CC BY-NC-SA"}
+license = {text = "CC BY-NC-SA 4.0"}
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -33,7 +33,7 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
-keywords = ["Large Language Models", "Latent Representations", "Propositional Probes", "Residual Stream", "Factual Knowledge", "Activation Patching", "Graphs", "Dynamic Graphs", "Knowledge Graphs", "LLMs"]
+keywords = ["Large Language Models", "Latent Representations",  "Graphs", "Factual Knowledge", "Activation Patching", "Probes","Residual Stream"]
 
 [project.urls]
 Repository = "https://github.com/Ipazia-AI/latent-explorer"

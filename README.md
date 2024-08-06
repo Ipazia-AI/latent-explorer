@@ -14,9 +14,11 @@ This framework analyses the process of factual knowledge resolution of Large Lan
 Using activation patching, it decodes the semantics, in the form of factual information, from the LLM latent representations (also known as residual stream or vector space) during the model's inference for the task of claim verification on entire input sentences. 
 This framework can be used to study the LLMs' latent representations for several aspects, such as (i) which factual knowledge LLMs use to assess the truthfulness of factual claims, (ii) how this factual knowledge evolves across hidden layers, and (iii) whether there are any distinctive patterns in this evolution.
 
+![Framework](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/framework.png)
+
 ![Contribution](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/contribution.png)
 
-![Framework](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/framework.png)
+*Since this framework executes several language model inferences, the use of a GPU is recommended ([install CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Python package
@@ -25,7 +27,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Pyt
 pip install latent-explorer
 ```
 
-or download and install the [GitHub repository](https://github.com/Ipazia-AI/latent-explorer) with: 
+or download and install the [GitHub repository](https://github.com/Ipazia-AI/latent-explorer) with 
 ` pip install -e . `
 
 ## Demo
@@ -38,40 +40,44 @@ The folder `tutorial` includes a script showcasing the pipeline: [`./tutorial/sc
 import latent_explorer
 ```
 
-### Initialize the application with the LLM and the inputs
+### (1.a) Initialize the application with the LLM and the inputs
 ```python
 explorer = latent_explorer.LatentExplorer(
   model_name = "meta-llama/llama-2-7b-chat-hf", 
   inputs = ["The capital of France is Paris"]
 )
 ```
-### Prepare the textual prompts
+### (1.b) Prepare the textual prompts
 ```python
 explorer.generate_prompts(verbose = True)
 ```
 
-### Perform the inference and get the hidden states
+### (2) Perform the inference and get the hidden states
 ```python
 explorer.inference(parse_output = True, output_hidden_states = True)
 ```
 
-### Probe each hidden states
+### (3.a) Probe each hidden states
 ```python
 results = explorer.probe_hidden_states()
 ```
 
-### Save the textual results
+### (3.b) Save the textual results
 ```python
 latent_explorer.save_results(results, folder_path = "outputs")
 ```
 
-### Generate the dynamic knowledge graphs
+### (4.a) Generate the dynamic knowledge graphs
 ```python
 tg = latent_explorer.TempoGrapher(results)
+```
+
+### (4.b) Get the graphs
+```python
 graphs = tg.get_graphs()
 ```
 
-### Generate and save the graphical figures
+### (4.c) Generate and save the graphical figures
 ```python
 tg.save_graphs(folder_path = "outputs")
 ```
