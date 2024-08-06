@@ -6,7 +6,7 @@ This framework analyses the process of factual knowledge resolution of Large Lan
 Using activation patching, it decodes the semantics, in the form of factual information, from the LLM latent representations (also known as residual stream or vector space) during the model's inference for the task of claim verification on entire input sentences. 
 This framework can be used to study the LLMs' latent representations for several aspects, such as (i) which factual knowledge LLMs use to assess the truthfulness of factual claims, (ii) how this factual knowledge evolves across hidden layers, and (iii) whether there are any distinctive patterns in this evolution.
 
-![Contribution](images/contribution.png)
+![Contribution](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/contribution.png)
 
 ![Framework](images/framework.png)
 
@@ -14,8 +14,11 @@ This framework can be used to study the LLMs' latent representations for several
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Python package
 
 ```bash
-pip install -e .
+pip install latent-explorer
 ```
+
+or download and install the repository with: 
+` pip install -e . `
 
 ## Demo
 The folder `tutorial` includes a script showcasing the pipeline: [`./tutorial/script.py`](./tutorial/script.py)
