@@ -1,6 +1,6 @@
 [project]
 name = "latent-explorer"
-version = "0.2"
+version = "0.1.1"
 dependencies = [
   "litgpt", 
   "huggingface-hub", 
@@ -21,7 +21,7 @@ maintainers = [
 ]
 description = "A Python library based on the technique of activation patching to represent the factual knowledge encoded in the latent space of large language models as dynamic knowledge graphs."
 readme = "README.md"
-license = {file = "LICENSE"}
+license = {text = "CC BY-NC-SA"}
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",

@@ -1,4 +1,16 @@
 # Latent-Explorer
+![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fgithub.com%2FIpazia-AI%2Flatent-explorer%2Fraw%2Fmain%2Fpyproject.toml&query=%24.version)
+![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fgithub.com%2FIpazia-AI%2Flatent-explorer%2Fraw%2Fmain%2Fpyproject.toml&query=%24.title)
+![Static Badge](https://img.shields.io/badge/licence-CC%20BY%20NC%20SA%204.0-blue?link=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0%2F)
+![Static Badge](https://img.shields.io/badge/website-online-green?link=https%3A%2F%2Fgithub.com%2FIpazia-AI)
+![Static Badge](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2404.03623-blue?link=https%3A%2F%2Fdoi.org%2F10.48550%2FarXiv.2404.03623)
+
+
+<p align="center">
+    <a href="https://github.com/huggingface/transformers/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/transformers.svg"></a>
+</p>
+
+
 Latent-Explorer is the Python implementation of the framework proposed in the paper [*Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph*](https://arxiv.org/abs/2404.03623) to appear in the 1<sup>st</sup> [Conference of Language Modeling](https://colmweb.org/index.html) (COLM).
 
 ## Overview
@@ -17,7 +29,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Pyt
 pip install latent-explorer
 ```
 
-or download and install the repository with: 
+or download and install the [GitHub repository](https://github.com/Ipazia-AI/latent-explorer) with: 
 ` pip install -e . `
 
 ## Demo
