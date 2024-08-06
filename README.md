@@ -1,10 +1,9 @@
 # Latent-Explorer
 [![Static Badge](https://img.shields.io/badge/licence-CC%20BY%20NC%20SA%204.0-blue)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FsaturnMars%2Flatent-explorer%2Fmain%2Fpyproject.toml&query=%24.project.version&label=relase)
+[![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FsaturnMars%2Flatent-explorer%2Fmain%2Fpyproject.toml&query=%24.project.version&label=release&color=green)](https://pypi.org/)
 [![Static Badge](https://img.shields.io/badge/website-online-green)](https://github.com/Ipazia-AI)
 [![Static Badge](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2404.03623-orange)](
 https://doi.org/10.48550/arXiv.2404.03623)
-
 
 Latent-Explorer is the Python implementation of the framework proposed in the paper [*Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph*](https://arxiv.org/abs/2404.03623) to appear in the 1<sup>st</sup> [Conference of Language Modeling](https://colmweb.org/index.html) (COLM).
 
