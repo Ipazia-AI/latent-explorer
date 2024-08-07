@@ -87,7 +87,7 @@ tg.save_graphs(folder_path = "outputs")
 
 ## Language models available
 This package inherits all of the LLMs supported by the [LitGPT](https://github.com/Lightning-AI/litgpt/blob/main/tutorials/download_model_weights.md) package.
-This framework works with instruction-tuned language models, such as those named with the suffixes "inst", "instruction", or "chat". 
+This framework works with instruction-tuned language models, such as those named with the suffixes "inst", "instruct", or "chat". 
 
 ```python
 models = latent_explorer.utils.all_supported_models()
