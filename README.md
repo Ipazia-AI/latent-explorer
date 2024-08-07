@@ -36,8 +36,6 @@ or download the [repository](https://github.com/Ipazia-AI/latent-explorer) and i
 ## Demo
 The folder `tutorial` includes a script showcasing the pipeline [`tutorial/script.py`](./tutorial/script.py)
 
-*Since this framework performs multiple language model inferences, using a GPU is recommended ([see CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html))
-
 ## Usage
 
 ### Import the package
@@ -94,6 +92,9 @@ This framework works with instruction-tuned language models, such as those named
 ```python
 models = latent_explorer.utils.all_supported_models()
 ```
+
+## Computational resources
+Since this framework performs multiple language model inferences, using a GPU is recommended ([see CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)). This framework has been tested with using two GPU-based configurations: (1x) *NVIDIA® A100-40GB*, and (4x) *NVIDIA® T4 Tensor Core - 16GB*.   
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
