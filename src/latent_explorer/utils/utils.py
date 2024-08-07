@@ -67,7 +67,6 @@ def text2json(output, max_attempts = 3, verbose = True):
             # FIX B: a fully unstructured string
             if e.pos <= 1:
                 splitted_output = [item.strip() for item in output.split('\n') if item.strip()]
-                print('RAW [SPLITTING]:', splitted_output)
                 
                 if len(splitted_output) > 1:
                     output = splitted_output[1] # skip the first component (e.g., assistant:\n ...)
