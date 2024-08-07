@@ -67,7 +67,7 @@ results = explorer.probe_hidden_states()
 
 ### Save the textual results
 ```python
-latent_explorer.save_results(results, folder_path = "outputs")
+latent_explorer.utils.save_results(results, folder_path = "outputs")
 ```
 
 ### Generate the dynamic knowledge graphs
