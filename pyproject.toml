@@ -1,6 +1,6 @@
 [project]
 name = "latent-explorer"
-version = "0.2"
+version = "0.1.2"
 dependencies = [
   "litgpt", 
   "huggingface-hub", 
@@ -42,3 +42,6 @@ Homepage = "https://github.com/Ipazia-AI"
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+explorer = ["*.json"]
