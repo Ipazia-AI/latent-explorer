@@ -1,7 +1,7 @@
 ![Logo](https://github.com/Ipazia-AI/latent-explorer/raw/main/images/logo.png)
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-[![Static Badge](https://img.shields.io/badge/PyPI-latent--explorer-red)](https://pypi.org/project/latent-explorer)
+[![Static Badge](https://img.shields.io/badge/pyPI-latent--explorer-red)](https://pypi.org/project/latent-explorer)
 [![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fgithub.com%2FIpazia-AI%2Flatent-explorer%2Fraw%2Fmain%2Fpyproject.toml&query=%24.project.version&label=release&color=green)](https://github.com/Ipazia-AI/latent-explorer/releases)
 [![Static Badge](https://img.shields.io/badge/website-online-green)](https://github.com/Ipazia-AI)
 [![Static Badge](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2404.03623-orange)](
@@ -118,9 +118,10 @@ If you use this package or its code in your research, please cite the following 
 ```
 
 ## License
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
