@@ -14,7 +14,7 @@ dependencies = [
   "networkx-temporal"
 ]
 authors = [
-  { name="Ipazia AI", email="m.bronzini@ipazia.com" },
+  {name="Ipazia AI"}
 ]
 maintainers = [
   {name = "Marco Bronzini", email = "m.bronzini@ipazia.com"}
