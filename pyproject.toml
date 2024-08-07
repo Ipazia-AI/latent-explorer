@@ -1,6 +1,6 @@
 [project]
 name = "latent-explorer"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
   "litgpt", 
   "huggingface-hub", 
