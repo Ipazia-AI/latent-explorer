@@ -1,7 +1,8 @@
 # Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
+# SOURCE: litgpt/model.py || VERSION: 0.4.8 || DATA: 2024-08-07
 
 from typing import Optional
-from torch import Tensor
+from torch import Tensor, tanh
 
 from litgpt.config import Config
 from litgpt import GPT as litGPT
@@ -10,6 +11,7 @@ class GPT(litGPT):
     def __init__(self, config: Config) -> None:
         super().__init__(config)
         
+        # New code: initialize the patching operation
         self.init_hidden_states()
         
     # ------------------ NEW CODE [PATCHING] ------------------
@@ -27,14 +29,13 @@ class GPT(litGPT):
 
     def forward(self, idx: Tensor, input_pos: Optional[Tensor] = None, output_hidden_states:bool = False) -> Tensor:
         T = idx.size(1)
+        if self.max_seq_length < T:
+            raise ValueError(f"Cannot forward sequence of length {T}, max seq length is only {self.max_seq_length}.")
 
         # ------------------ NEW CODE ------------------
         all_hidden_states = () if output_hidden_states else None
         # ------------------ NEW CODE ------------------
         
-        if self.max_seq_length < T:
-            raise ValueError(f"Cannot forward sequence of length {T}, max seq length is only {self.max_seq_length}.")
-
         if input_pos is not None:  # use the kv cache
             cos = self.cos.index_select(0, input_pos)
             sin = self.sin.index_select(0, input_pos)
@@ -48,7 +49,7 @@ class GPT(litGPT):
 
         x = self.transformer.wte(idx)  # token embeddings of shape (b, t, n_embd)
         if self.config.scale_embeddings:
-            x = x * (self.config.n_embd**0.5)
+            x = x * Tensor(self.config.n_embd**0.5, dtype=x.dtype)
             
         # ------------------ NEW CODE [PATCHING] ------------------
         first_pass = True if len(input_pos) > 1 else False 
@@ -71,8 +72,12 @@ class GPT(litGPT):
         # ------------------ NEW CODE ------------------
             
         x = self.transformer.ln_f(x)
+        x = self.lm_head(x)  # (b, t, vocab_size)
+
+        if self.config.final_logit_softcapping is not None:
+            x = tanh(x / self.config.final_logit_softcapping) * self.config.final_logit_softcapping
 
         if output_hidden_states:
-            return self.lm_head(x), all_hidden_states
+            return x, all_hidden_states
         else:
-            return self.lm_head(x)  # (b, t, vocab_size)
+            return x

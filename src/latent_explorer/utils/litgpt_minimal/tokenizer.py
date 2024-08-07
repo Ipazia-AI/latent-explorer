@@ -1,4 +1,6 @@
 # Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
+# SOURCE: litgpt/tokenizer.py || VERSION: 0.4.8 || DATA: 2024-08-07
+
 import json
 from pathlib import Path
 from typing import Optional, Union, List, Dict, Any
@@ -10,10 +12,13 @@ from litgpt import Tokenizer as litTokenizer
 class Tokenizer(litTokenizer):
     
     def __init__(self, checkpoint_dir: Union[Path, str]) -> None:
+
+        # Check if the checkpoint directory exists
         checkpoint_dir = Path(checkpoint_dir)
-        
         if not checkpoint_dir.exists():
             raise NotADirectoryError(f"The checkpoint directory does not exist: {str(checkpoint_dir)}")
+
+        self.model_name = checkpoint_dir.stem
 
         # Initialize the tokenizer
         self.use_bos = self.check_if_bos_token_used(checkpoint_dir)
@@ -94,9 +99,13 @@ class Tokenizer(litTokenizer):
         elif self.backend == "sentencepiece":
             tokens = self.processor.encode(string)
         else:
-            raise RuntimeError
+            raise RuntimeError(f"`{self.backend}` is not supported.")
+        
+        if tokens is None:
+            raise ValueError("`self.processor` returned tokens of None value.")
 
         return torch.tensor(tokens, dtype=torch.int, device=device)
+    
     
     def id_to_token(self, id: int) -> str:
         if self.backend == "huggingface":
