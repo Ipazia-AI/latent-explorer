@@ -1,12 +1,10 @@
-from collections import defaultdict
 from logging import warn
-from pathlib import Path
 from multiprocessing.pool import ThreadPool 
-import sys
+from pathlib import Path
 from typing import Union, Tuple, List, Dict
 from lightning import Fabric
 import torch
-#import warnings
+import sys
 
 # LITGPT IMPORTS
 from litgpt import Config
@@ -26,8 +24,6 @@ class LLM:
     DEFAULT_SOURCE_SYS_INST = "You are a journalist with expertise in fact-checking. Your role is to evaluate the truthfulness of factual claims. To uphold journalistic integrity, you must produce a report containing a binary assessment and all the factual information that supports your evaluation."
     
     DEFAULT_TARGET_SYS_INST = "You are an assistant with expertise in fact-checking. Your role is to assess claims."
-    
-    ICL_DEFAULT_EXAMPLES_PATH = Path('src/latent_explorer/resources/in_context_examples.json')
     
     def __init__(self, model_name:str, inputs: list[str], hf_access_token:str = None):
         self.model_name = model_name
@@ -181,7 +177,7 @@ class LLM:
         
         # Load the default in-context examples
         if not isinstance(in_context_examples, list) or len(in_context_examples) < 1:
-            in_context_examples = load_examples(self.ICL_DEFAULT_EXAMPLES_PATH)
+            in_context_examples = load_examples()
     
         # Split the examples into source and target examples (1st example for the source, the others for the target)
         if in_context_examples == 1:

@@ -1,8 +1,12 @@
 from json import load
 from litgpt.config import configs
+from pkg_resources import resource_filename
 
-def load_examples(path: str) -> list[dict]:
-    with open(path, mode = 'r', encoding="utf-8") as f:
+EXAMPLE_FILEPATH = resource_filename('latent_explorer', resource_name = 'resources/in_context_examples.json')
+
+def load_examples(file_path: str = EXAMPLE_FILEPATH) -> list[dict]:
+    print("file_path:", file_path)
+    with open(file_path, mode = 'r', encoding="utf-8") as f:
         examples = load(f)
     return examples
 
