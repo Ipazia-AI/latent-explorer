@@ -151,7 +151,7 @@ class LLM:
         
         # Parse the output text to JSON
         if parse_output and len(generated_text) > 0:
-            generated_text = text2json(generated_text, max_attempts = 3)
+            generated_text = text2json(generated_text, max_attempts = 3, verbose = True)
         
         return generated_text, hidden_states
     

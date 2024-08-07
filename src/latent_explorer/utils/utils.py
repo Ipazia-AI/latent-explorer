@@ -31,7 +31,7 @@ def generate_prompt_template(sys_prompt = None, examples: list[dict] = [], input
 
     return conversation
 
-def text2json(output, max_attempts = 3, verbose = True):
+def text2json(output, max_attempts = 3, verbose = False):
     
     # Attempt to parse the output as JSON with some error handling
     num_attempts = 0
