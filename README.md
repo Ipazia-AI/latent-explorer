@@ -107,14 +107,12 @@ This work has been funded by [Ipazia S.p.A.](https://ipazia.com)
 If you use this package or its code in your research, please cite the following work:
 
 ```bibtex
-@misc{bronzini2024unveiling,
-  title         = {Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph}, 
-  author        = {Marco Bronzini and Carlo Nicolini and Bruno Lepri and Jacopo Staiano and Andrea Passerini},
+@inproceedings{bronzini2024unveiling,
+  title         = {Unveiling LLMs: The evolution of latent representations in a dynamic knowledge graph},
+  author        = {Bronzini, Marco and Nicolini, Carlo and Lepri, Bruno and Staiano, Jacopo and Passerini, Andrea},
+  booktitle     = {First Conference on Language Modeling},
   year          = {2024},
-  eprint        = {2404.03623},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL},
-  url           = {https://arxiv.org/abs/2404.03623}
+  url           = {https://openreview.net/forum?id=dWYRjT501w}
 }
 ```
 
