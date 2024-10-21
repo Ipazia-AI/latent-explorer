@@ -108,11 +108,11 @@ If you use this package or its code in your research, please cite the following 
 
 ```bibtex
 @inproceedings{bronzini2024unveiling,
-  title         = {Unveiling LLMs: The evolution of latent representations in a dynamic knowledge graph},
-  author        = {Bronzini, Marco and Nicolini, Carlo and Lepri, Bruno and Staiano, Jacopo and Passerini, Andrea},
-  booktitle     = {First Conference on Language Modeling},
-  year          = {2024},
-  url           = {https://openreview.net/forum?id=dWYRjT501w}
+  title     = {Unveiling LLMs: The evolution of latent representations in a dynamic knowledge graph},
+  author    = {Bronzini, Marco and Nicolini, Carlo and Lepri, Bruno and Staiano, Jacopo and Passerini, Andrea},
+  booktitle = {First Conference on Language Modeling},
+  year      = {2024},
+  url       = {https://openreview.net/forum?id=dWYRjT501w}
 }
 ```
 
